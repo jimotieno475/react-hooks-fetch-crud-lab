@@ -19,39 +19,7 @@ function QuestionForm(props) {
 
   function handleSubmit(event) {
     event.preventDefault();
-    if(formData.prompt.trim().length<1||
-      formData.answer1.trim().length<1||
-      formData.answer2.trim().length<1||
-      formData.answer3.trim().length<1||
-      formData.answer4.trim().length<1){
-        alert("please fill all field before submission")
-        return;
-      }
-      const newQuestion={
-        prompt:formData.prompt,
-        answers:[formData.answer1,formData.answer2,formData.answer3,formData.answer4],
-        correctIndex:parseInt(formData.correctIndex,10)
-
-      }
-      fetch('http://localhost:4000/questions',{
-        method:'POST',
-        headers:{
-          "Content-Type":"application/json"
-        },
-        body:JSON.stringify(newQuestion)
-      })
-      .then(response=>response.json())
-      .then(response=>{
-        props.handleNewQuestion(response)
-    
-      setFormData({prompt: "",
-      answer1: "",
-      answer2: "",
-      answer3: "",
-      answer4: "",
-      correctIndex: 0,})
-      
-      })
+    console.log(formData);
   }
 
   return (
