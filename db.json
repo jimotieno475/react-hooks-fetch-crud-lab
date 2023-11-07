@@ -1,17 +1,6 @@
 {
   "questions": [
     {
-      "id": 4,
-      "prompt": "______ is a tool that transpiles JSX into valid JavaScript.",
-      "answers": [
-        "React",
-        "Babel",
-        "Webpack",
-        "ES6"
-      ],
-      "correctIndex": 2
-    },
-    {
       "id": 5,
       "prompt": "What syntax makes it possible to unpack values from arrays, or properties from objects, into distinct variables?",
       "answers": [
@@ -32,6 +21,72 @@
         "controlled"
       ],
       "correctIndex": 1
+    },
+    {
+      "prompt": " cxbnm",
+      "answers": [
+        "zxccccccccccccccccccccccccccccccccccccccc",
+        "wetrhyuj",
+        "asdfghj",
+        "sdfghjk"
+      ],
+      "correctIndex": 0,
+      "id": 7
+    },
+    {
+      "prompt": " cxbnm",
+      "answers": [
+        "zxccccccccccccccccccccccccccccccccccccccc",
+        "wetrhyuj",
+        "asdfghj",
+        "sdfghjk"
+      ],
+      "correctIndex": 0,
+      "id": 8
+    },
+    {
+      "prompt": " cxbnm",
+      "answers": [
+        "zxccccccccccccccccccccccccccccccccccccccc",
+        "wetrhyuj",
+        "asdfghj",
+        "sdfghjk"
+      ],
+      "correctIndex": 0,
+      "id": 9
+    },
+    {
+      "prompt": " cxbnm",
+      "answers": [
+        "zxccccccccccccccccccccccccccccccccccccccc",
+        "wetrhyuj",
+        "asdfghj",
+        "sdfghjk"
+      ],
+      "correctIndex": 0,
+      "id": 10
+    },
+    {
+      "prompt": " cxbnm",
+      "answers": [
+        "zxccccccccccccccccccccccccccccccccccccccc",
+        "wetrhyuj",
+        "asdfghj",
+        "sdfghjk"
+      ],
+      "correctIndex": 0,
+      "id": 11
+    },
+    {
+      "prompt": " cxbnm",
+      "answers": [
+        "zxccccccccccccccccccccccccccccccccccccccc",
+        "wetrhyuj",
+        "asdfghj",
+        "sdfghjk"
+      ],
+      "correctIndex": 0,
+      "id": 12
     }
   ]
 }
